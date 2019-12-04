@@ -15,6 +15,14 @@ const routes = [
       title: '会员中心'
     }
   },
+
+    {
+        name: 'carIndex',
+        component: () => import('./view/carpool/carIndex.vue'),
+        meta: {
+            title: '共享拼车'
+        }
+    }
   // {
   //   name: 'cart',
   //   component: () => import('./view/cart'),
