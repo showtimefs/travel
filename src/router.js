@@ -22,7 +22,15 @@ const routes = [
         meta: {
             title: '共享拼车'
         }
+    },
+    {
+        name: 'pushStroke',
+        component: () => import('./view/carpool/pushStroke.vue'),
+        meta: {
+            title: '发布行程'
+        }
     }
+
   // {
   //   name: 'cart',
   //   component: () => import('./view/cart'),

@@ -73,7 +73,7 @@
         <div class="listInfo">
             <div v-for="item in 3">
                 <div class="card">
-                    <van-row style="border-bottom: 1px solid #ECECEC;display: flex;align-items: center;">
+                    <van-row style="border-bottom: 1px solid #ECECEC;display: flex;align-items: center;padding: 8px 2px;">
                         <van-col span="16">
                             <span class="datetime">2019年12月04日 05:20</span>
                         </van-col>
@@ -100,7 +100,7 @@
                             />
                         </van-col>
                         <van-col span="10">
-                            <p><span style="color: #5083ED">【车主】</span> 加菲猫</p>
+                            <p style="display: flex;align-items: center"><span style="color: #5083ED">【车主】</span> 加菲猫 <img src="../../static/images/sexTag.png" style="width: 13px;height: 13px;display: inline-block;margin-left: 5px"></p>
                             <p><span>【车型】</span> 大众速腾</p>
                         </van-col>
                     </van-row>
@@ -237,6 +237,9 @@
         margin-bottom: 10px;
         border: 1px solid #f1f1f1;
     }
+    .listInfo{
+        margin-bottom: 60px;
+    }
 
     .listInfo .card{
         width: 90%;
@@ -289,4 +292,7 @@
     .van-tabbar{
         background: #5083ED;
     }
+
+
+
 </style>
